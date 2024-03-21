@@ -1,0 +1,293 @@
+/* .box1 {
+    position: relative;
+    animation: geeks 5s infinite;
+    animation-play-state: paused;
+height: 80px;
+font-size: 80px;
+
+}
+  
+@keyframes geeks {
+   0% {
+        left: 0px;
+         background: red;
+        
+    }
+    100% {
+        left: 500px;
+      background: green;
+         ;
+    }
+}
+
+.box1.horizTranslate {
+    animation-play-state: running;
+}
+  
+
+/* makes it so it starts and stops when you hover over the div */
+
+/* .box1:hover {
+    animation-play-state: running;
+} */ 
+
+/* example2 */
+
+
+/* .box2 {
+    position: relative;
+    animation: geeks2 5s infinite;
+    animation-play-state: paused;
+height: 80px;
+font-size: 80px;
+
+}
+  
+@keyframes geeks2 {
+   0% {
+        left: 0px;
+         background: rgb(238, 240, 112);
+        top:0px
+    }
+    100% {
+        left: 500px;
+      background: rgb(250, 172, 2);
+      top: 200px;
+         ;
+    }
+}
+
+.box2.horizTranslate2 {
+    animation-play-state: running;
+}
+  
+
+/* makes it so it starts and stops when you hover over the div */
+
+/* .box2:hover {
+    animation-play-state: running;
+} */ 
+
+
+
+/* example3 */
+
+/* .box3 {
+    position: relative;
+    animation: geeks3 5s infinite;
+    animation-play-state: paused;
+height: 200px;
+font-size: 40px;
+ text-align: center;
+color: blue;
+}
+  
+@keyframes geeks3 {
+   0% {
+        left: 0px;
+     top:0px;
+      width: 400px;
+     height: 400px;
+         background: blue;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+
+        
+    }
+    50% {
+        left: 250px;
+      background: yellow;
+      top:40px;
+       width: 400px;
+     height: 50px;
+ clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+
+;
+
+
+    
+    }
+      100% {
+        left: 500px;
+     top:80px;
+          width: 400px;
+     height: 400px;
+         background: blue;
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+   
+        
+    }
+}
+
+.box3.horizTranslate3 {
+    animation-play-state: running;
+}
+  
+
+/* makes it so it starts and stops when you hover over the div */
+
+/* .box3:hover {
+    animation-play-state: running;
+} */ 
+
+
+/* example4 */
+
+/* .box4 {
+    position: relative;
+    animation: geeks4 5s infinite;
+    animation-play-state: paused;
+height: 200px;
+font-size: 80px;
+ text-align: center;
+color: rgb(248, 11, 11);
+}
+  
+@keyframes geeks4 {
+   0% {
+        left: 0px;
+     top:0px;
+      width: 700px;
+     height: 400px;
+         background: rgb(2, 247, 165);
+  clip-path: polygon(50% 30%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+
+        
+    }
+    50% {
+        left: 250px;
+      background: rgb(0, 255, 242);
+      top:40px;
+       width: 400px;
+     height: 50px;
+ clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+
+;
+
+
+    
+    }
+      100% {
+        left: 500px;
+     top:300px;
+          width: 400px;
+     height: 400px;
+         background: rgb(0, 255, 13);
+        clip-path: square(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+   
+        
+    }
+}
+
+.box4.horizTranslate4 {
+    animation-play-state: running;
+}
+  
+
+/* makes it so it starts and stops when you hover over the div */
+
+/* .box4:hover {
+    animation-play-state: running;
+} */ 
+
+/* exampe5 */
+
+.box51 {
+    position: relative;
+    animation: geeks51 5s infinite;
+    animation-play-state: paused;
+height: 200px;
+font-size: 40px;
+ text-align: center;
+}
+  
+@keyframes geeks51 {
+   0% {
+        left: 0px;
+     top:0px;
+      width: 500px;
+         background: pink;
+     border-radius: 0%;
+  
+        
+    }
+    50% {
+        left: 250px;
+      background: orange;
+      top:40px;
+       width: 250px;
+          border-radius: 50%;
+    
+    }
+      100% {
+        left: 500px;
+     top:80px;
+         width: 500px;
+         background: pink;
+     border-radius: 0%;
+        
+    }
+}
+
+.box51.horizTranslate51 {
+    animation-play-state: running;
+}
+  
+
+/* makes it so it starts and stops when you hover over the div */
+
+.box51:hover {
+    animation-play-state: running;
+}
+
+
+/* example6 */
+
+.box6 {
+    position: relative;
+    animation: geeks6 5s infinite;
+    animation-play-state: paused;
+height: 200px;
+font-size: 40px;
+ text-align: center;
+}
+  
+@keyframes geeks6 {
+   0% {
+        left: 0px;
+     top:0px;
+      width: 500px;
+         background: pink;
+     border-radius: 0%;
+  
+        
+    }
+    50% {
+        left: 250px;
+      background: orange;
+      top:40px;
+       width: 250px;
+          border-radius: 50%;
+    
+    }
+      100% {
+        left: 500px;
+     top:80px;
+         width: 500px;
+         background: pink;
+     border-radius: 0%;
+        
+    }
+}
+
+.box6.horizTranslate6 {
+    animation-play-state: running;
+}
+  
+
+/* makes it so it starts and stops when you hover over the div */
+
+.box6:hover {
+    animation-play-state: running;
+}
